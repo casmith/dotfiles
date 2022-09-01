@@ -37,3 +37,8 @@ fzf.bash
 .ssh/id_*
 .ssh/id_*.*
 .ssh/known_hosts
+
+.m2/repository
+
+.ivy2/**/*
+.ivy2/.credentials
