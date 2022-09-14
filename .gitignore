@@ -4,6 +4,7 @@ Applications/
 Desktop/
 Documents/
 Library/
+LastPass.app
 Movies/
 Music/
 Nextcloud/
@@ -44,6 +45,7 @@ fzf.bash
 .swn
 .swo
 .bsp
+.kube/*cache
 
 .ssh/**/*
 !.ssh/config
