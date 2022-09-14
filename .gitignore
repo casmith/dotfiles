@@ -70,7 +70,7 @@ work/
 
 .ivy2/**/*
 !.ivy2/.credentials
-
+!.ivy2/credentials
 **/*.swp
 
 # Rally/Optum stuff
