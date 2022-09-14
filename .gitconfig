@@ -1,1 +1,5 @@
-/Users/csmit549/work/dotfiles/.gitconfig
+[user]
+	email = casmith@users.noreply.github.com
+	name = Clay Smith
+[url "https://github.com/"]
+	insteadOf = git@github.com:
