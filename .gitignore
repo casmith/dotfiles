@@ -22,8 +22,12 @@ work/
 .SotALauncher.pid
 .Trash/
 .android/
-.bash_history
-fzf.bash
+.bash_histora
+# pre-commit
+.cache
+.config
+.docker
+.fzf.bash
 .fzf.zsh
 .fzf/
 .g8/
@@ -46,14 +50,36 @@ fzf.bash
 .swo
 .bsp
 .kube/*cache
+.vim
+.groovy/
+.kube/
+.lesshst
+.npmrc
+.todoist.config.json
+.vim_mru_files
+.viminfo
+.zcompdump*
 
 .ssh/**/*
 !.ssh/config
 
 .m2/repository
 
+*cache*
+
 .ivy2/**/*
 !.ivy2/.credentials
 
-#Rally/Optum stuff
+**/*.swp
+
+# Rally/Optum stuff
 .testcontainers.properties
+.admin*.txt
+.anyconnect
+.cisco
+.vmware
+.scab
+.aws
+.rds-combined-ca-bundle.pem
+.ops-tool-daily-check
+
