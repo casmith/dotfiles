@@ -3,6 +3,8 @@ set showmatch " Shows matching brackets
 set ruler " Always shows location in file (line#)
 set smarttab " Autotabs for certain code
 
+autocmd BufNewFile,BufRead Jenkinsfile set syntax=groovy
+
 :let mapleader = ","
 
 set expandtab " On pressing tab, insert 2 spaces
