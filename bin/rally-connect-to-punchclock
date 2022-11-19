@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#Very simple script to fetch a tenant's kubeconfig using rally-kubectl. Simply
+#provide a tenant name and it will figure out which role and aws profile to use.
+
+healthActivityProdRole="engage-health-activity-rally-prod"
+devRole="defaultaccess-rally-dev"
+prodRole="defaultaccess-rally-prod"
+
+env=$1
+
+if [[ $env = "prod" ]]; then
+  connect-to-psql -D -e engage-health-activity-rally-prod -r punchclock-prod-db-ro -d punchclock -p app_ro -M -n
+elif [[ $env = "int" || $env = "integration"  ]]; then
+  connect-to-psql -D -e defaultaccess-rally-dev -r punchclock-integration-db -D
+
+else
+  connect-to-psql -D -e engage-health-activity-rally-dev -t $env -r postgress11-rds-$enf -d punchclock 
+fi
+
