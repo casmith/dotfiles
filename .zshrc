@@ -133,7 +133,6 @@ alias issues="~/issues.sh"
 alias tqw="tq \#work"
 alias present="cscreen -x 1920 -y 1080"
 alias nopresent="cscreen -x 3440 -y 1440"
-alias fetch-k8s="rally-kubectl -e defaultaccess-rally-dev -t"
 
 # todoist aliases
 alias td='todoist --color list --filter '\''(overdue | today) & !#Work'\'
