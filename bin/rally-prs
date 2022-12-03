@@ -1,0 +1,21 @@
+
+repos=( ChallengesV2 ChallengesV2-Test RCU-Zenplay challenges-scheduling communities dash engage-user-settings funnel mishenz progression-signals punchclock starship-challengemanagerv2 starship-missionmanager transorma )
+
+joinByChar() {
+  local IFS="$1"
+  shift
+  echo "$*"
+}
+
+#prepend repos with AudaxHealthInc/
+newRepos=()
+i=0
+for r in "${repos[@]}"; do 
+  newRepos[i]="AudaxHealthInc/$r"
+  let "i += 1"
+done
+
+# comma separated list of repos
+repoString=$(joinByChar , "${newRepos[@]}")
+
+gh search prs --repo $repoString  --state open --sort created --draft=false

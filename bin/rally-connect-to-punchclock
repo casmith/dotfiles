@@ -15,6 +15,6 @@ elif [[ $env = "int" || $env = "integration"  ]]; then
   connect-to-psql -D -e defaultaccess-rally-dev -r punchclock-integration-db -D
 
 else
-  connect-to-psql -D -e engage-health-activity-rally-dev -t $env -r postgress11-rds-$enf -d punchclock 
+  connect-to-psql -D -e engage-health-activity-rally-dev -t $env -r postgres11-rds-$env -d punchclock 
 fi
 

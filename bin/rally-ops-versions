@@ -1,0 +1,10 @@
+#!/bin/bash
+
+env=$1
+
+domain="rally-dev.com"
+if [[ $env = *"-prod-"* || $env = *"-uat-"* ]]; then
+  domain="rally-prod.com"
+fi 
+
+curl https://ops-proxy.$env.$domain/deployment/versions -s |jq
