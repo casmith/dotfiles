@@ -118,6 +118,8 @@ export TOKEN=$(cat ~/.secret/GITHUB_TOKEN)
 
 export GITHUB_USERNAME=$(cat ~/.secret/GITHUB_USERNAME)
 export GITHUB_TOKEN=$(cat ~/.secret/GITHUB_TOKEN)
+export GITHUB_TOKEN_OPTUM=$(cat ~/.secret/GITHUB_TOKEN_OPTUM)
+export GITHUB_USERNAME_OPTUM=$(cat ~/.secret/GITHUB_USERNAME_OPTUM)
 
 export ARTIFACTORY_PASSWORD=$(cat ~/.secret/ARTIFACTORY_PASSWORD)
 export ARTIFACTORY_USERNAME=$(cat ~/.secret/ARTIFACTORY_USERNAME)
@@ -143,7 +145,6 @@ alias t=todoist
 
 # github aliases
 alias gh-prs="gh search prs --review-requested=casmith --state=open --draft=false"
-
 # todoist quick add
 tq() { todoist q "$*" }
 
