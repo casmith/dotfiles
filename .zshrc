@@ -116,8 +116,8 @@ source $ZSH/oh-my-zsh.sh
 export USERNAME=$(cat ~/.secret/GITHUB_USERNAME)
 export TOKEN=$(cat ~/.secret/GITHUB_TOKEN)
 
-export GITHUB_USERNAME=$(cat ~/.secret/GITHUB_USERNAME)
-export GITHUB_TOKEN=$(cat ~/.secret/GITHUB_TOKEN)
+export GITHUB_USERNAME=$(cat ~/.secret/GITHUB_USERNAME_OPTUM)
+export GITHUB_TOKEN=$(cat ~/.secret/GITHUB_TOKEN_OPTUM)
 export GITHUB_TOKEN_OPTUM=$(cat ~/.secret/GITHUB_TOKEN_OPTUM)
 export GITHUB_USERNAME_OPTUM=$(cat ~/.secret/GITHUB_USERNAME_OPTUM)
 
