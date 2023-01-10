@@ -165,7 +165,7 @@ pullrequest() {
 
   gh pr create --body "[$jira_id](https://jira.rallyhealth.com/browse/$jira_id)
 
-@AudaxHealthInc/best-hats" --title "[$jira_id] $desc"
+@optum-rally/best-hats" --title "[$jira_id] $desc"
 }
 
 
