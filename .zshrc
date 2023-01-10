@@ -7,7 +7,7 @@ fi
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$HOME/bin:$PATH
+export PATH=$HOME/bin/temp:$HOME/bin:$PATH
 
 export GOROOT=/opt/homebrew/Cellar/go/1.17.8/libexec/
 

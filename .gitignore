@@ -20,6 +20,9 @@ project/
 work/
 notes
 
+bin/temp # local scripts that don't get stored in git
+bin/temp/*
+
 .CFUserTextEncoding
 .DS_Store
 .SotALauncher.pid
