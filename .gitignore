@@ -70,6 +70,7 @@ bin/temp/*
 !.ssh/config
 
 .m2/repository
+.m2/wrapper
 
 *cache*
 
