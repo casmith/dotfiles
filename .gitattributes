@@ -1,4 +1,4 @@
-.sh/config filter=git-crypt diff=git-crypt
+.ssh/config filter=git-crypt diff=git-crypt
 .m2/settings.xml filter=git-crypt diff=git-crypt
 .ivy2/.credentials filter=git-crypt diff=git-crypt
 .ivy2/credentials filter=git-crypt diff=git-crypt
