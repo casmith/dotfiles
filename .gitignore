@@ -31,7 +31,8 @@ bin/temp/*
 .bash_histora
 # pre-commit
 .cache
-.config
+.config/**/*
+!.config/sops/
 .docker
 .fzf.bash
 .fzf.zsh
