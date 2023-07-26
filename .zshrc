@@ -206,3 +206,5 @@ tenant-versions() { curl https://ops-proxy.$1.rally-dev.com/deployment/versions
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export SOPS_AGE_KEY_FILE=~/.config/sops/age/keys.txt

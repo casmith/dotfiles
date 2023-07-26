@@ -3,4 +3,4 @@
 .ivy2/.credentials filter=git-crypt diff=git-crypt
 .ivy2/credentials filter=git-crypt diff=git-crypt
 .secret/** filter=git-crypt diff=git-crypt
-
+.config/sops/age/keys.txt filter=git-crypt diff=git-crypt
