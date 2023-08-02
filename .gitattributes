@@ -3,4 +3,9 @@
 .ivy2/.credentials filter=git-crypt diff=git-crypt
 .ivy2/credentials filter=git-crypt diff=git-crypt
 .secret/** filter=git-crypt diff=git-crypt
+<<<<<<< Updated upstream
 .config/sops/age/keys.txt filter=git-crypt diff=git-crypt
+=======
+.kube/config filter=git-crypt diff=git-crypt
+.kube/config.* filter=git-crypt diff=git-crypt
+>>>>>>> Stashed changes

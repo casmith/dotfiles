@@ -57,10 +57,11 @@ bin/temp/*
 .swn
 .swo
 .bsp
-.kube/*cache
 .vim
 .groovy/
-.kube/
+.kube/*
+!.kube/config
+!.kube/config.*
 .lesshst
 .npmrc
 .todoist.config.json

@@ -208,3 +208,4 @@ tenant-versions() { curl https://ops-proxy.$1.rally-dev.com/deployment/versions
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export SOPS_AGE_KEY_FILE=~/.config/sops/age/keys.txt
+export KUBECONFIG=~/.kube/config:$(find ~/.kube -type f -name "config.*" | tr '\n' ':')
