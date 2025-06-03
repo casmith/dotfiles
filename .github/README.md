@@ -19,7 +19,7 @@ mkdir -p tmp/old
 mv .bashrc .bash_profile other things tmp/old
 git init
 git remote add origin https://github.com/casmith/dotfiles
-git pull origin master --ff-only
+git pull origin main --ff-only
 git branch --set-upstream-to origin/main main
 chmod 0600 "$HOME/.ssh/config"
 ```
@@ -28,6 +28,11 @@ Note that some files in this repository, such as my SSH configuration, are
 encrypted. Some secrets are stored in .secret and sourced in my .zshrc. For
 more on how the encryption works, check out https://github.com/AGWA/git-crypt.
 
+Finish Installation
+-------------------
+
+# install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 Motivation
 ----------
