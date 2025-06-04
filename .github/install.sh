@@ -7,5 +7,7 @@ git pull origin main --ff-only
 git checkout main
 git branch --set-upstream-to origin/main main
 
+git remote set-url origin git@github.com:casmith/dotfiles.git
+
 mkdir -p "$HOME/.ssh"
 chmod 0600 "$HOME/.ssh/config"
